@@ -7,7 +7,7 @@
 
 body {
     background-color:hsl(185, 75%, 39%);
-    background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+    background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-position: top -620px left -410px, bottom -710px right -370px;
     background-repeat: no-repeat, no-repeat;
     text-align: center;
