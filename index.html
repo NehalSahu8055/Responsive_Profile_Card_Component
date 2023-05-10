@@ -1,39 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Coding Bootcamp Testimonials Slider" />
+    <meta
+      name="keywords"
+      content="Frontend Mentor, Coding Bootcamp Testimonials Slider, _nehal, Responsive Designs"
+    />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <title>Frontend Mentor | Profile card component</title>
+    <!-- Linking Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body class="ff-inter">
+    <main>
+      <div class="container fc-db center slide slide-1">
+        <div class="flex-col text-box opacity-txt">
+          <p class="flex-col review flex-c fw-300 line-height-1 fs-large">
+            “ I’ve been interested in coding for a while but never taken the
+            jump, until now. I couldn’t recommend this course enough. I’m now in
+            the job of my dreams and so excited about the future. ”
+          </p>
+          <div class="author fs-small flex-row flex-jsa">
+            <span class="author-name fw-700">Tanya Sinclair
+            <span class="author-profession fc-gb">UX Engineer</span>
+            </span>
+          </div>
+        </div>
+        <div class="slide-img-bg flex-row flex-c">
+          <img
+            class="slide-img opacity-img"
+            src="images/image-tanya.jpg"
+            alt="image-tanya"
+          />
+          <div class="slider flex-row flex-c flex-jsb">
+            <img class="icon-prev" src="images/icon-prev.svg" alt="icon-prev" />
+            <img class="icon-next" src="images/icon-next.svg" alt="icon-next" />
+          </div>
+        </div>
+      </div>
 
-  
-</head>
-<body>
-  <main>
-    <div class="container">
-      <div class="card">
-          <img class="bg-card" src="images/bg-pattern-card.svg" alt="bg-pattern-card">
-          <img class="cat-pic" src="images/cat.bmp" alt="cat-pic">
-        <div class="content">
-          <div class  ="intro"><span class="head">Victor Crest</span><span class="number"> 26</span>
-            <p class="earth">Earth</p></div>
-        <hr>
-         <div class="stats">
-          <div class="stats1"><ul><li class="stats-head">80K</li> <li class="stats-txt1 stats-txt">Followers</li></ul></div>
-          <div class="stats2"><ul><li class="stats-head">803K</li><li class="stats-txt2 stats-txt">Likes</li></ul></div>
-          <div class="stats3"><ul><li class="stats-head">1.4K</li><li class="stats-txt3 stats-txt">Photos</li></ul></div>
-         </div>
-         </div>
-       </div>
-    </div>
-  </main>
-
-</body>
+      <!-- Slide-2 -->
+      <div class="container fc-db flex-row flex-c center slide slide-2 hidden">
+        <div class="flex-col text-box opacity-txt">
+          <h1 class="sr-only">Coding Bootcamp Testimonials Slider</h1>
+          <p class="flex-col review flex-c fw-300 line-height-1 fs-large">
+            “ If you want to lay the best foundation possible I’d recommend
+            taking this course. The depth the instructors go into is incredible.
+            I now feel so confident about starting up as a professional
+            developer. ”
+          </p>
+          <div class="author fs-small">
+            <span class="author-name fw-700">John Tarkpor</span>
+            <span class="author-profession fc-gb"
+              >Junior Front-end Developer</span
+            >
+          </div>
+        </div>
+        <div class="slide-img-bg flex-row flex-c">
+          <img
+            class="slide-img opacity-img"
+            src="images/image-john.jpg"
+            alt="image-john"
+          />
+          <div class="slider flex-row flex-c flex-jsb">
+            <img class="icon-prev" src="images/icon-prev.svg" alt="icon-prev" />
+            <img class="icon-next" src="images/icon-next.svg" alt="icon-next" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
 </html>
